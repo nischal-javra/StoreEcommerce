@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- Main menu -->
+        <add id="Sample_ContactForm::sample"
+             title="Sample Group"
+             translate="title"
+             module="Sample_ContactForm"
+             sortOrder="50"
+             resource="Magento_Backend::content"
+        />
+        <!-- Main menu Title -->
+        <add id="Sample_ContactForm::sample_general"
+             title="Sample Settings"
+             translate="title"
+             module="Sample_ContactForm"
+             sortOrder="10"
+             parent="Sample_ContactForm::sample"
+             resource="Magento_Backend::content"
+             action="sample_contactform/setting/setting/"
+        />
+        <!-- Sub menu items -->
+        <!-- <add id="Sample_ContactForm::sample_contact_form"
+             title="Sample Manage"
+             module="Sample_ContactForm"
+             translate="title"
+             sortOrder="30"
+             resource="Magento_Backend::content"
+             parent="Sample_ContactForm::sample"
+             action="sample_contactform/form/index"
+        /> -->
+        <add id="Sample_ContactForm::form_index" title="Sample Manage" module="Sample_ContactForm" sortOrder="9999" resource="Sample_ContactForm::form_index" parent="Sample_ContactForm::sample" action="sample_contactform/form/index"/>
+    </menu>
+</config>

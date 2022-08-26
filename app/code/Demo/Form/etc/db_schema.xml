@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table name="demo_form_form" resource="default" engine="innodb" comment="demo_form_form Table">
+		<column xsi:type="int" name="form_id" padding="10" unsigned="true" nullable="false" identity="true" comment="Entity Id"/>
+		<constraint xsi:type="primary" referenceId="PRIMARY">
+			<column name="form_id"/>
+		</constraint>
+		<column name="id" nullable="true" xsi:type="int" comment="id" identity="false"/>
+		<column name="name" nullable="true" xsi:type="text" comment="name"/>
+		<column name="phone_number" nullable="true" xsi:type="int" comment="phone_number" identity="false"/>
+	</table>
+</schema>

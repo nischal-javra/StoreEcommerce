@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table comment="sample_contact_form Table" engine="innodb" name="sample_contact_form" resource="default">
+        <column name="id" nullable="false" padding="6" comment="Contact ID" unsigned="true" identity="true" xsi:type="smallint"/>
+        <column name="name" nullable="false" length="255" comment="Contact Name" xsi:type="varchar"/>
+        <constraint referenceId="PRIMARY" xsi:type="primary">
+            <column name="id"/>
+        </constraint>
+        <index referenceId="SAMPLE_CONTACT_FORM" indexType="fulltext">
+            <column name="name"/>
+        </index>
+    </table>
+</schema>
