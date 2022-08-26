@@ -89,6 +89,7 @@ class Context extends \Magento\Framework\View\Element\Template\Context
             $resolver,
             $validator,
             $lockQuery);
+
     }
 
 }
