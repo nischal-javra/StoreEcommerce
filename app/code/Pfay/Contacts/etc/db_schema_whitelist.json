@@ -1,0 +1,13 @@
+{
+    "pfay_contacts_pfay_contacts": {
+        "column": {
+            "pfay_contacts_id": true,
+            "name": true,
+            "email": true,
+            "comment": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

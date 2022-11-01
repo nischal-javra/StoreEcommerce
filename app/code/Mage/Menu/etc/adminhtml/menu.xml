@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mage_Menu::mage"
+             translate="title"
+             title="Mage"
+             module="Mage_Menu"
+             sortOrder="20"
+             resource="Mage_Menu::mage"/>
+
+        <add id="Mage_Menu::menu"
+             translate="title"
+             title="Menu"
+             module="Mage_Menu"
+             sortOrder="10"
+             resource="Mage_Menu::menu"
+             parent="Mage_Menu::mage"
+             action="mage/index"/>
+    </menu>
+</config>

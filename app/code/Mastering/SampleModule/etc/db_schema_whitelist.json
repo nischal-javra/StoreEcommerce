@@ -1,0 +1,15 @@
+{
+    "mastering_sample_item": {
+        "column": {
+            "id": true,
+            "name": true,
+            "description": true
+        },
+        "index": {
+            "MASTERING_SAMPLE_ITEM_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

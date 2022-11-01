@@ -12,7 +12,11 @@ use Magento\Framework\Model\AbstractModel;
 
 class Form extends AbstractModel implements FormInterface
 {
+    const CACHE_TAG = 'demo_form_form';
 
+    protected $_cacheTag = 'demo_form_form';
+
+    protected $_eventPrefix = 'demo_form_form';
     /**
      * @inheritDoc
      */

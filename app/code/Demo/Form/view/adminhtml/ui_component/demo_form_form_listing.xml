@@ -12,7 +12,7 @@
 		</deps>
         <buttons>
         <button name="add">
-           <url path="*/*/new"/>
+           <url path="*/*/test"/>
            <class>primary</class>
            <label translate="true">Add new Demo</label>
         </button>

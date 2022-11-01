@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Pfay\Contacts\Api\PfayContactsRepositoryInterface" type="Pfay\Contacts\Model\PfayContactsRepository"/>
+    <preference for="Pfay\Contacts\Api\Data\PfayContactsInterface" type="Pfay\Contacts\Model\PfayContacts"/>
+    <preference for="Pfay\Contacts\Api\Data\PfayContactsSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+    <preference for="Pfay\Contacts\Api\HelloInterface" type="Pfay\Contacts\Model\Hello"/>
+</config>

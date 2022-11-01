@@ -1,0 +1,32 @@
+[
+  {
+    "sku": "24-MB01",
+    "product_name": "abc",
+    "price": 14.54
+  },
+  {
+    "sku": "24-MB02",
+    "product_name": "abc",
+    "price": 36.50
+  },
+  {
+    "sku": "24-MB03",
+    "product_name": "abc",
+    "price": 46.54
+  },
+  {
+    "sku": "24-MB04",
+    "product_name": "abc",
+    "price": 56.54
+  },
+  {
+    "sku": 1008,
+    "product_name": "abc",
+    "price": 26.54
+  },
+  {
+    "sku": 1009,
+    "product_name": "abc",
+    "price": 16.54
+  }
+]

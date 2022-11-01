@@ -1,0 +1,14 @@
+{
+    "sample_contact_form": {
+        "column": {
+            "id": true,
+            "name": true
+        },
+        "index": {
+            "SAMPLE_CONTACT_FORM_NAME": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

@@ -16,7 +16,7 @@ class Display extends Template
 
     public function sayHello()
     {
-        return __('Hello World');
+        return __('Hello Nischal');
     }
 
     public function getPostCollection()

@@ -4,7 +4,6 @@
     <body>
         <referenceContainer name="content">
             <uiComponent name="sample_contactform_form_listing"/>
-            <uiComponent name="sample_contactform_form_form" />
         </referenceContainer>
     </body>
 </page>

@@ -16,6 +16,8 @@ class Collection extends AbstractCollection
      * @inheritDoc
      */
     protected $_idFieldName = 'form_id';
+    protected $_eventPrefix = 'demo_form_form_collection';
+    protected $_eventObject = 'form_collection';
 
     /**
      * @inheritDoc

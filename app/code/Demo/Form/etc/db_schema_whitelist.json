@@ -1,0 +1,13 @@
+{
+    "demo_form_form": {
+        "column": {
+            "form_id": true,
+            "id": true,
+            "name": true,
+            "phone_number": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

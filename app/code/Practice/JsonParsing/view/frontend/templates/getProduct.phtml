@@ -1,0 +1,13 @@
+<?php
+$id = 1;
+$sku = '24-MB01';
+$_product = $this->getProductById($id);
+$_product = $this->getProductBySku($sku);
+
+echo $_product->getEntityId();
+echo '<br />';
+echo $_product->getName();
+echo '<br/>';
+echo $_product->getPrice();
+echo '<br/>';
+echo $this->skuExists($sku);
